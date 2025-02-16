@@ -57,9 +57,9 @@ def respond(voice_data):
     # 2: name
     if there_exists(["what is your name","what's your name","tell me your name"]):
         if person_obj.name:
-            speak("my name is Alexis")
+            speak("my name is Tate")
         else:
-            speak("my name is Alexis. what's your name?")
+            speak("my name is Tate. what's your name?")
 
     if there_exists(["my name is"]):
         person_name = voice_data.split("is")[-1].strip()
